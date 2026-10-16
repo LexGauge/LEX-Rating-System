@@ -366,3 +366,4 @@ export default router;
 // Write updated JSON back to file system
 // Finalize theme route response and export
 // Initialize theme preference endpoint
+// Add theme payload validation for light/dark
