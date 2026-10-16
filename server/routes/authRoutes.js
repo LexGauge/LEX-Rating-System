@@ -357,3 +357,4 @@ router.put('/theme', async (req, res) => {
 export default router;
 // Initialize theme preference endpoint
 // Add theme payload validation for light/dark
+// Implement mongoose connection ready state check
