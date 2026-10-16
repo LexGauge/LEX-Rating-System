@@ -365,3 +365,4 @@ export default router;
 // Add JSON file theme update logic
 // Write updated JSON back to file system
 // Finalize theme route response and export
+// Initialize theme preference endpoint
