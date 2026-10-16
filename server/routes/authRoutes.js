@@ -369,3 +369,4 @@ export default router;
 // Add theme payload validation for light/dark
 // Implement mongoose connection ready state check
 // Add MongoDB user theme update logic
+// Import JSON database read/write utilities
