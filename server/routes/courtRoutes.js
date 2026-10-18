@@ -115,3 +115,4 @@ export default router;
 // Add PUT endpoint for updating court information
 // Implement DELETE route for removing court entries
 // Add error handling for court route database operations
+// Finalize court routes export and clean up code
