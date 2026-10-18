@@ -114,3 +114,4 @@ export default router;
 // Implement payload validation for new court data
 // Add PUT endpoint for updating court information
 // Implement DELETE route for removing court entries
+// Add error handling for court route database operations
