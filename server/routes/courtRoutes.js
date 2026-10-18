@@ -112,3 +112,4 @@ export default router;
 // Add GET endpoint for fetching single court details
 // Create POST route for adding new court records
 // Implement payload validation for new court data
+// Add PUT endpoint for updating court information
