@@ -110,3 +110,4 @@ export default router;
 // Add GET endpoint for retrieving all courts
 // Implement court ID validation middleware
 // Add GET endpoint for fetching single court details
+// Create POST route for adding new court records
