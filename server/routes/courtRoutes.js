@@ -107,3 +107,4 @@ router.post('/cases', requireAuth, requireRole('judge', 'admin'), async (req, re
 
 export default router;
 // Initialize court routes module
+// Add GET endpoint for retrieving all courts
