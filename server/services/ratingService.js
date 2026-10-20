@@ -146,3 +146,4 @@ export function calculateLawyerRatings(users, courtCases) {
 // Implement logic to submit a new rating
 // Add service to update existing rating scores
 // Implement review text sanitization
+// Add database query for fetching rating history
