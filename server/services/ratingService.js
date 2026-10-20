@@ -139,3 +139,4 @@ export function calculateLawyerRatings(users, courtCases) {
   return { eloMap, statsMap };
 }
 // Initialize rating service module
+// Define rating calculation constants and weights
