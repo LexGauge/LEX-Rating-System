@@ -144,3 +144,4 @@ export default router;
 // Implement PUT route for updating lawyer details
 // Add DELETE endpoint for removing lawyer profiles
 // Implement error handling for lawyer database queries
+// Finalize lawyer routes export
