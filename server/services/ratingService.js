@@ -142,3 +142,4 @@ export function calculateLawyerRatings(users, courtCases) {
 // Define rating calculation constants and weights
 // Add helper function for average rating calculation
 // Implement fetch algorithm for lawyer ratings
+// Add validation for incoming user rating payloads
