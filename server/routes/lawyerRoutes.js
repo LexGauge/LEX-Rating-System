@@ -143,3 +143,4 @@ export default router;
 // Add validation middleware for lawyer registration payload
 // Implement PUT route for updating lawyer details
 // Add DELETE endpoint for removing lawyer profiles
+// Implement error handling for lawyer database queries
