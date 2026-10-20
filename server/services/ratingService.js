@@ -150,3 +150,4 @@ export function calculateLawyerRatings(users, courtCases) {
 // Implement caching strategy for top-rated lawyers
 // Add service method to calculate weighted scores
 // Implement user verification check for authentic reviews
+// Add delete rating functionality for moderators
