@@ -154,3 +154,4 @@ export function calculateLawyerRatings(users, courtCases) {
 // Implement pagination logic for rating lists
 // Add aggregate function for court ratings
 // Implement error handling for missing rating records
+// Add edge case handling for zero reviews
