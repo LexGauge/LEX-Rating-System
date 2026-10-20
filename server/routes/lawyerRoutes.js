@@ -137,3 +137,4 @@ router.get('/search', async (req, res) => {
 export default router;
 // Initialize lawyer routing module
 // Add GET route for listing all lawyers
+// Implement search filtering for lawyer specialties
