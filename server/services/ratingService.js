@@ -155,3 +155,4 @@ export function calculateLawyerRatings(users, courtCases) {
 // Add aggregate function for court ratings
 // Implement error handling for missing rating records
 // Add edge case handling for zero reviews
+// Optimize MongoDB aggregation pipeline for ratings
