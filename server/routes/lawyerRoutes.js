@@ -141,3 +141,4 @@ export default router;
 // Add GET endpoint for fetching individual lawyer profiles
 // Create POST endpoint for registering new lawyers
 // Add validation middleware for lawyer registration payload
+// Implement PUT route for updating lawyer details
