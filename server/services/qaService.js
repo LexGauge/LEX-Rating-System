@@ -248,24 +248,30 @@ export async function upvoteAnswer(questionId, answerId, userId) {
   if (!userId) throw new Error('You must be signed in to upvote');
 
   const Model = await getModel();
-  if (Model) {
-    const q = await Model.findOne({ id: questionId, 'answers.id': answerId }).lean();
-    if (!q) throw new Error('Question or answer not found');
-    const ans = q.answers.find(a => a.id === answerId);
-    const hasUpvoted = ans.upvotedBy?.includes(userId);
+    if (Model) {
+    // Step 1: try to remove the vote. This only matches if the user already voted.
+    const removed = await Model.updateOne(
+      { id: questionId, answers: { $elemMatch: { id: answerId, upvotedBy: userId } } },
+      { $pull: { 'answers.$.upvotedBy': userId }, $inc: { 'answers.$.upvotes': -1 } }
+    );
 
-    if (hasUpvoted) {
-      await Model.updateOne(
-        { id: questionId, 'answers.id': answerId },
-        { $pull: { 'answers.$.upvotedBy': userId }, $inc: { 'answers.$.upvotes': -1 } }
-      );
+    let hasUpvoted;
+    if (removed.modifiedCount === 1) {
+      hasUpvoted = false;
     } else {
-      await Model.updateOne(
-        { id: questionId, 'answers.id': answerId },
-        { $push: { 'answers.$.upvotedBy': userId }, $inc: { 'answers.$.upvotes': 1 } }
+      // Step 2: add the vote. The filter excludes users who already voted,
+      // so a double click cannot add them twice or inflate the count.
+      const added = await Model.updateOne(
+        { id: questionId, answers: { $elemMatch: { id: answerId, upvotedBy: { $ne: userId } } } },
+        { $addToSet: { 'answers.$.upvotedBy': userId }, $inc: { 'answers.$.upvotes': 1 } }
       );
+      if (added.matchedCount === 0) throw new Error('Question or answer not found');
+      hasUpvoted = true;
     }
-    return { hasUpvoted: !hasUpvoted, upvotes: hasUpvoted ? ans.upvotes - 1 : ans.upvotes + 1 };
+
+    const q = await Model.findOne({ id: questionId, 'answers.id': answerId }).lean();
+    const ans = q?.answers.find(a => a.id === answerId);
+    return { hasUpvoted, upvotes: ans?.upvotes ?? 0 };
   }
 
   const { readJSON, writeJSON } = await import('../lib/db.js');
