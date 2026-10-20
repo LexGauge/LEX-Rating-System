@@ -147,3 +147,4 @@ export function calculateLawyerRatings(users, courtCases) {
 // Add service to update existing rating scores
 // Implement review text sanitization
 // Add database query for fetching rating history
+// Implement caching strategy for top-rated lawyers
