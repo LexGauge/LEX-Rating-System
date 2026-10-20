@@ -140,3 +140,4 @@ export function calculateLawyerRatings(users, courtCases) {
 }
 // Initialize rating service module
 // Define rating calculation constants and weights
+// Add helper function for average rating calculation
