@@ -140,3 +140,4 @@ export default router;
 // Implement search filtering for lawyer specialties
 // Add GET endpoint for fetching individual lawyer profiles
 // Create POST endpoint for registering new lawyers
+// Add validation middleware for lawyer registration payload
