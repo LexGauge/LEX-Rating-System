@@ -152,3 +152,4 @@ export function calculateLawyerRatings(users, courtCases) {
 // Implement user verification check for authentic reviews
 // Add delete rating functionality for moderators
 // Implement pagination logic for rating lists
+// Add aggregate function for court ratings
