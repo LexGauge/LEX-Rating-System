@@ -149,3 +149,4 @@ export function calculateLawyerRatings(users, courtCases) {
 // Add database query for fetching rating history
 // Implement caching strategy for top-rated lawyers
 // Add service method to calculate weighted scores
+// Implement user verification check for authentic reviews
