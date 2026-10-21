@@ -54,3 +54,4 @@ export async function sendBrevoEmail(toEmail, code) {
 // Add HTML template rendering support
 // Implement fallback plain text email bodies
 // Add attachment handling for email service
+// Implement retry logic for failed email dispatches
