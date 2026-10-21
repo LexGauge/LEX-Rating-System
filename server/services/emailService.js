@@ -44,3 +44,4 @@ export async function sendBrevoEmail(toEmail, code) {
 }
 
 // Initialize email service module
+// Import nodemailer and config dependencies
