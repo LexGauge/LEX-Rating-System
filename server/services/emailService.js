@@ -48,3 +48,4 @@ export async function sendBrevoEmail(toEmail, code) {
 // Configure SMTP transporter settings
 // Add connection verification for email server
 // Create base template for transactional emails
+// Implement welcome email sending logic
