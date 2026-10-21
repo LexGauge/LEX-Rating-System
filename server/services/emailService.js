@@ -60,3 +60,4 @@ export async function sendBrevoEmail(toEmail, code) {
 // Add error handling for invalid email addresses
 // Implement daily summary report email logic
 // Add support for CC and BCC fields
+// Implement bulk email sending capabilities
