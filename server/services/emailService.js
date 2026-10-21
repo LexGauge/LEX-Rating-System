@@ -47,3 +47,4 @@ export async function sendBrevoEmail(toEmail, code) {
 // Import nodemailer and config dependencies
 // Configure SMTP transporter settings
 // Add connection verification for email server
+// Create base template for transactional emails
