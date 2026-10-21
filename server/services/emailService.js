@@ -52,3 +52,4 @@ export async function sendBrevoEmail(toEmail, code) {
 // Add password reset email functionality
 // Implement email verification link generator
 // Add HTML template rendering support
+// Implement fallback plain text email bodies
