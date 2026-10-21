@@ -53,3 +53,4 @@ export async function sendBrevoEmail(toEmail, code) {
 // Implement email verification link generator
 // Add HTML template rendering support
 // Implement fallback plain text email bodies
+// Add attachment handling for email service
