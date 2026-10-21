@@ -62,3 +62,4 @@ export async function sendBrevoEmail(toEmail, code) {
 // Add support for CC and BCC fields
 // Implement bulk email sending capabilities
 // Add rate limiting to prevent spam
+// Finalize email service exports
