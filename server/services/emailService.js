@@ -58,3 +58,4 @@ export async function sendBrevoEmail(toEmail, code) {
 // Add email queue processing utility
 // Implement logging for sent emails
 // Add error handling for invalid email addresses
+// Implement daily summary report email logic
