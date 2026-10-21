@@ -55,3 +55,4 @@ export async function sendBrevoEmail(toEmail, code) {
 // Implement fallback plain text email bodies
 // Add attachment handling for email service
 // Implement retry logic for failed email dispatches
+// Add email queue processing utility
