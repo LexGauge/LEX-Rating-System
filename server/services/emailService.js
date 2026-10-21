@@ -50,3 +50,4 @@ export async function sendBrevoEmail(toEmail, code) {
 // Create base template for transactional emails
 // Implement welcome email sending logic
 // Add password reset email functionality
+// Implement email verification link generator
