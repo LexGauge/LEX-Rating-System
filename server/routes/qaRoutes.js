@@ -29,11 +29,15 @@ router.get('/questions', async (req, res) => {
   } catch (err) { res.status(500).json({ error: err.message }); }
 });
 
-router.get('/inquiries', async (req, res) => {
+router.get('/inquiries', requireAuth, async (req, res) => {
   try {
-    const { userId, role, city, specialization } = req.query;
-    if (!userId) return res.status(401).json({ error: 'userId is required' });
-    res.json(await getPrivateInquiries({ userId, role, city, specialization }));
+    const { city, specialization } = req.query;
+    res.json(await getPrivateInquiries({
+      userId: req.user.id,
+      role: req.user.role,
+      city,
+      specialization,
+    }));
   } catch (err) { res.status(500).json({ error: err.message }); }
 });
 
