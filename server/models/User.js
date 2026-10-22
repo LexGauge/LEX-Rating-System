@@ -36,3 +36,4 @@ export default mongoose.models.User || mongoose.model('User', userSchema);
 // Enable automatic Mongoose timestamps
 // Add regex validation for email format
 // Create virtual field for user full name
+// Add profile picture URL field
