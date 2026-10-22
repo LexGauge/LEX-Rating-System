@@ -39,3 +39,4 @@ export default mongoose.models.User || mongoose.model('User', userSchema);
 // Add profile picture URL field
 // Implement soft delete active status flag
 // Add account email verification status
+// Create unique database index on email field
