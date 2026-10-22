@@ -35,3 +35,4 @@ export default mongoose.models.User || mongoose.model('User', userSchema);
 // Add theme preference field with default
 // Enable automatic Mongoose timestamps
 // Add regex validation for email format
+// Create virtual field for user full name
