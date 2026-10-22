@@ -45,3 +45,4 @@ export default mongoose.models.CourtCase || mongoose.model('CourtCase', courtCas
 // Add timestamp configuration for case schema
 // Create instance method to check active case status
 // Add tags array for case categorization
+// Implement pagination plugin for case queries
