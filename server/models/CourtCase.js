@@ -35,3 +35,4 @@ export default mongoose.models.CourtCase || mongoose.model('CourtCase', courtCas
 // Add array field for hearing dates and schedules
 // Implement virtual field for case duration
 // Add document attachments reference array
+// Create database index on case number for fast lookups
