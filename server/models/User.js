@@ -29,3 +29,4 @@ const userSchema = new mongoose.Schema({
 export default mongoose.models.User || mongoose.model('User', userSchema);
 // Initialize User model schema
 // Add username and email fields
+// Implement password hashing pre-save hook
