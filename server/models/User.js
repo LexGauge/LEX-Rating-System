@@ -44,3 +44,4 @@ export default mongoose.models.User || mongoose.model('User', userSchema);
 // Implement instance method to generate JWT
 // Add array field for tracking login history
 // Define reference array for saved lawyers
+// Add two-factor authentication secret field
