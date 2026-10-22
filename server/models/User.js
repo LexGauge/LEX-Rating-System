@@ -45,3 +45,4 @@ export default mongoose.models.User || mongoose.model('User', userSchema);
 // Add array field for tracking login history
 // Define reference array for saved lawyers
 // Add two-factor authentication secret field
+// Implement schema pre-save data sanitization
