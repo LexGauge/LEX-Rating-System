@@ -34,3 +34,4 @@ export default mongoose.models.User || mongoose.model('User', userSchema);
 // Define user roles enum for authorization
 // Add theme preference field with default
 // Enable automatic Mongoose timestamps
+// Add regex validation for email format
