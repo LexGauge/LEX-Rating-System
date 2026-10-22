@@ -95,9 +95,7 @@ router.post('/questions/:id/answers', requireAuth, async (req, res) => {
 
 router.post('/questions/:id/answers/:answerId/upvote', requireAuth, async (req, res) => {
   try {
-    const { userId } = req.body;
-    if (!userId) return res.status(401).json({ error: 'userId is required' });
-    const result = await upvoteAnswer(req.params.id, req.params.answerId, userId);
+    const result = await upvoteAnswer(req.params.id, req.params.answerId, req.user.id);
     res.json(result);
   } catch (err) { res.status(400).json({ error: err.message }); }
 });
