@@ -43,3 +43,4 @@ export default mongoose.models.User || mongoose.model('User', userSchema);
 // Add password reset token and expiry fields
 // Implement instance method to generate JWT
 // Add array field for tracking login history
+// Define reference array for saved lawyers
