@@ -38,3 +38,4 @@ export default mongoose.models.CourtCase || mongoose.model('CourtCase', courtCas
 // Create database index on case number for fast lookups
 // Add description and case summary text fields
 // Implement pre-save hook for status updates
+// Add reference to assigned lawyer profiles
