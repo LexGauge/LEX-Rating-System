@@ -58,8 +58,8 @@ router.post('/questions', requireAuth, async (req, res) => {
 
 router.post('/questions/:id/request-public', requireAuth, async (req, res) => {
   try {
-    const { lawyerId, lawyerName } = req.body;
-    if (!lawyerId) return res.status(401).json({ error: 'lawyerId is required' });
+    const lawyerId = req.user.id;
+    const { lawyerName } = req.body;
     const q = await requestPublicApproval(req.params.id, { lawyerId, lawyerName });
     res.json({ message: 'Public request sent to client', question: q });
   } catch (err) { res.status(400).json({ error: err.message }); }
