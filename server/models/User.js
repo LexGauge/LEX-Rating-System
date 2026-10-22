@@ -40,3 +40,4 @@ export default mongoose.models.User || mongoose.model('User', userSchema);
 // Implement soft delete active status flag
 // Add account email verification status
 // Create unique database index on email field
+// Add password reset token and expiry fields
