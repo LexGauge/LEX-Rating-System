@@ -26,5 +26,5 @@ const courtCaseSchema = new mongoose.Schema({
 
   verdict:                 { type: String, default: 'Decided' },
 }, { timestamps: true });
-
 export default mongoose.models.CourtCase || mongoose.model('CourtCase', courtCaseSchema);
+// Initialize CourtCase model schema
