@@ -38,3 +38,4 @@ export default mongoose.models.User || mongoose.model('User', userSchema);
 // Create virtual field for user full name
 // Add profile picture URL field
 // Implement soft delete active status flag
+// Add account email verification status
