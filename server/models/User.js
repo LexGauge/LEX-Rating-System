@@ -26,5 +26,5 @@ const userSchema = new mongoose.Schema({
   showRating:     { type: Boolean, default: true },
   themePreference:{ type: String, enum: ['light', 'dark'], default: 'light' }
 }, { timestamps: true });
-
 export default mongoose.models.User || mongoose.model('User', userSchema);
+// Initialize User model schema
