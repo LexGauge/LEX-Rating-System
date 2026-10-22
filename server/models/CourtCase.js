@@ -31,3 +31,4 @@ export default mongoose.models.CourtCase || mongoose.model('CourtCase', courtCas
 // Add case number and title fields
 // Implement plaintiff and defendant reference fields
 // Add filing date and status enum fields
+// Define judge and court jurisdiction references
