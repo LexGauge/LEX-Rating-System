@@ -33,3 +33,4 @@ export default mongoose.models.User || mongoose.model('User', userSchema);
 // Add password comparison instance method
 // Define user roles enum for authorization
 // Add theme preference field with default
+// Enable automatic Mongoose timestamps
