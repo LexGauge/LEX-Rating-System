@@ -67,9 +67,8 @@ router.post('/questions/:id/request-public', requireAuth, async (req, res) => {
 
 router.post('/questions/:id/respond-public-request', requireAuth, async (req, res) => {
   try {
-    const { userId, approve } = req.body;
-    if (!userId) return res.status(401).json({ error: 'userId is required' });
-    const q = await respondPublicRequest(req.params.id, userId, Boolean(approve));
+    const { approve } = req.body;
+    const q = await respondPublicRequest(req.params.id, req.user.id, Boolean(approve));
     res.json({
       message: approve ? 'Question approved and published to public forum' : 'Public request declined',
       question: q
@@ -79,9 +78,7 @@ router.post('/questions/:id/respond-public-request', requireAuth, async (req, re
 
 router.post('/questions/:id/publish', requireAuth, async (req, res) => {
   try {
-    const { userId } = req.body;
-    if (!userId) return res.status(401).json({ error: 'userId is required' });
-    const q = await publishQuestionToPublic(req.params.id, userId);
+    const q = await publishQuestionToPublic(req.params.id, req.user.id);
     res.json({ message: 'Question published to public forum', question: q });
   } catch (err) { res.status(400).json({ error: err.message }); }
 });
