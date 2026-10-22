@@ -40,3 +40,4 @@ export default mongoose.models.CourtCase || mongoose.model('CourtCase', courtCas
 // Implement pre-save hook for status updates
 // Add reference to assigned lawyer profiles
 // Define custom validation for hearing date chronology
+// Add field for case resolution or verdict details
