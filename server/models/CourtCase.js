@@ -43,3 +43,4 @@ export default mongoose.models.CourtCase || mongoose.model('CourtCase', courtCas
 // Add field for case resolution or verdict details
 // Implement soft delete for archived court cases
 // Add timestamp configuration for case schema
+// Create instance method to check active case status
