@@ -32,3 +32,4 @@ export default mongoose.models.CourtCase || mongoose.model('CourtCase', courtCas
 // Implement plaintiff and defendant reference fields
 // Add filing date and status enum fields
 // Define judge and court jurisdiction references
+// Add array field for hearing dates and schedules
