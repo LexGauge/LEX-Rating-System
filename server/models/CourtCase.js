@@ -29,3 +29,4 @@ const courtCaseSchema = new mongoose.Schema({
 export default mongoose.models.CourtCase || mongoose.model('CourtCase', courtCaseSchema);
 // Initialize CourtCase model schema
 // Add case number and title fields
+// Implement plaintiff and defendant reference fields
