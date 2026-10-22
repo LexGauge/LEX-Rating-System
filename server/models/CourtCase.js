@@ -28,3 +28,4 @@ const courtCaseSchema = new mongoose.Schema({
 }, { timestamps: true });
 export default mongoose.models.CourtCase || mongoose.model('CourtCase', courtCaseSchema);
 // Initialize CourtCase model schema
+// Add case number and title fields
