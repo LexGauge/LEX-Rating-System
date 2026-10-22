@@ -41,3 +41,4 @@ export default mongoose.models.CourtCase || mongoose.model('CourtCase', courtCas
 // Add reference to assigned lawyer profiles
 // Define custom validation for hearing date chronology
 // Add field for case resolution or verdict details
+// Implement soft delete for archived court cases
