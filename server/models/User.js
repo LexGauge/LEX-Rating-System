@@ -31,3 +31,4 @@ export default mongoose.models.User || mongoose.model('User', userSchema);
 // Add username and email fields
 // Implement password hashing pre-save hook
 // Add password comparison instance method
+// Define user roles enum for authorization
