@@ -41,3 +41,4 @@ export default mongoose.models.User || mongoose.model('User', userSchema);
 // Add account email verification status
 // Create unique database index on email field
 // Add password reset token and expiry fields
+// Implement instance method to generate JWT
