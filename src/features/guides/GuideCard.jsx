@@ -32,3 +32,4 @@ export default function GuideCard({ guide, onClick }) {
 // step 6
 // step 7
 // step 8
+// step 9
