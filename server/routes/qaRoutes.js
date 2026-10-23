@@ -11,6 +11,12 @@ import {
   upvoteAnswer,
 } from '../services/qaService.js';
 import { requireAuth } from '../middleware/auth.js';
+import { readJSON } from '../lib/db.js';
+import { USERS_PATH } from '../config/paths.js';
+
+function getStoredUser(id) {
+  return readJSON(USERS_PATH, []).find(u => u.id === id) || null;
+}
 
 const router = Router();
 
@@ -51,7 +57,14 @@ router.get('/questions/:id', async (req, res) => {
 
 router.post('/questions', requireAuth, async (req, res) => {
   try {
-    const q = await createQuestion(req.body);
+    const me = getStoredUser(req.user.id);
+    if (!me) return res.status(401).json({ error: 'User not found' });
+    const q = await createQuestion({
+      ...req.body,
+      authorId: me.id,
+      authorName: me.name,
+      authorRole: me.role,
+    });
     res.status(201).json({ message: 'Question posted successfully', question: q });
   } catch (err) { res.status(400).json({ error: err.message }); }
 });
@@ -85,11 +98,24 @@ router.post('/questions/:id/publish', requireAuth, async (req, res) => {
 
 router.post('/questions/:id/answers', requireAuth, async (req, res) => {
   try {
-    const answer = await addAnswer(req.params.id, req.body);
+    const me = getStoredUser(req.user.id);
+    if (!me) return res.status(401).json({ error: 'User not found' });
+    const answer = await addAnswer(req.params.id, {
+      content: req.body.content,
+      authorId: me.id,
+      authorName: me.name,
+      authorUsername: me.username,
+      authorRole: me.role,
+      isLawyer: me.role === 'lawyer',
+      licenseNumber: me.licenseNumber || null,
+      specialization: me.specialization || null,
+      elo: me.elo ?? null,
+      profilePic: me.profilePic || null,
+      city: me.city || null,
+    });
     res.status(201).json({ message: 'Answer posted successfully', answer });
   } catch (err) { res.status(400).json({ error: err.message }); }
 });
-
 router.post('/questions/:id/answers/:answerId/upvote', requireAuth, async (req, res) => {
   try {
     const result = await upvoteAnswer(req.params.id, req.params.answerId, req.user.id);
