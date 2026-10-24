@@ -40,3 +40,4 @@ export const QA_SAMPLE_DATA = [
   { id: 8, tag: 'Immigration', question: 'How long does an expatriate work permit renewal take in Ethiopia?', answers: 2, time: '4 days ago' },
 ];
 // Initialize constants data file
+// Define application base URL constants
