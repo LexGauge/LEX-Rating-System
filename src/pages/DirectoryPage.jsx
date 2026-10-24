@@ -266,3 +266,4 @@ export default function DirectoryPage({
 // Update StarRow responsive sizing props
 // Refactor StarRow empty state rendering
 // Update EloBar tier threshold constants
+// Refactor EloBar width calculation math
