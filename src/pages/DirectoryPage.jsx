@@ -270,3 +270,4 @@ export default function DirectoryPage({
 // Improve EloBar mount animation easing
 // Update EloBar tooltip positioning logic
 // Refactor EloBar max-width constraints
+// Update AuthModal input validation regex
