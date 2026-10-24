@@ -274,3 +274,4 @@ export default function DirectoryPage({
 // Refactor AuthModal tab state switching
 // Improve AuthModal input focus rings
 // Update AuthModal error message typography
+// Refactor AuthModal keyboard event listeners
