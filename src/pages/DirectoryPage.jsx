@@ -294,3 +294,4 @@ export default function DirectoryPage({
 // Refactor DirectoryPage filter sidebar width
 // Improve DirectoryPage empty results messaging
 // Update DirectoryPage pagination button states
+// Refactor DirectoryPage list/grid toggle state
