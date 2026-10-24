@@ -281,3 +281,4 @@ export default function DirectoryPage({
 // Update LawyerCard hover box-shadow effect
 // Refactor LawyerCard specialty badge flex wrapping
 // Update LawyerModal body overflow hidden logic
+// Refactor LawyerModal bio paragraph spacing
