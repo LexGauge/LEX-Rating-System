@@ -304,3 +304,4 @@ export default function DirectoryPage({
 // Refactor ratingUtils null check fallbacks
 // Improve ratingUtils Elo normalization formula
 // Update ratingUtils large number formatting
+// Refactor ratingUtils unrated profile default return
