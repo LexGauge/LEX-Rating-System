@@ -379,3 +379,4 @@ export const LEGAL_GUIDES = [
 // Add immigration law step-by-step guides
 // Implement tax law FAQ data
 // Add personal injury claim procedures
+// Update guide metadata with author info
