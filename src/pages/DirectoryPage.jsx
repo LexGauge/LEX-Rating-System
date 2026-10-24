@@ -285,3 +285,4 @@ export default function DirectoryPage({
 // Improve LawyerModal primary CTA button padding
 // Update LawyerModal skeleton loader animation
 // Refactor LawyerModal close icon hit area
+// Update Home page hero h1 line-height
