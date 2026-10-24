@@ -280,3 +280,4 @@ export default function DirectoryPage({
 // Improve LawyerCard text overflow truncation
 // Update LawyerCard hover box-shadow effect
 // Refactor LawyerCard specialty badge flex wrapping
+// Update LawyerModal body overflow hidden logic
