@@ -279,3 +279,4 @@ export default function DirectoryPage({
 // Refactor LawyerCard image loading attribute
 // Improve LawyerCard text overflow truncation
 // Update LawyerCard hover box-shadow effect
+// Refactor LawyerCard specialty badge flex wrapping
