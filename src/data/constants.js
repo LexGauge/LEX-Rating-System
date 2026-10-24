@@ -51,3 +51,4 @@ export const QA_SAMPLE_DATA = [
 // Define standard success message strings
 // Add local storage key constants
 // Define maximum file upload size constants
+// Add application version string constant
