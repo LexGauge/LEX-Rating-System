@@ -301,3 +301,4 @@ export default function DirectoryPage({
 // Update storage utility cross-tab event listener
 // Refactor storage utility key prefix constants
 // Update ratingUtils decimal rounding precision
+// Refactor ratingUtils null check fallbacks
