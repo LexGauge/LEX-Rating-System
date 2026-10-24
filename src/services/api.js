@@ -193,3 +193,4 @@ export { authFetch, API_BASE };
 // Implement token refresh mechanism on 401 response
 // Add API timeout configuration
 // Create utility for handling multipart form data
+// Implement request cancellation token logic
