@@ -194,3 +194,4 @@ export { authFetch, API_BASE };
 // Add API timeout configuration
 // Create utility for handling multipart form data
 // Implement request cancellation token logic
+// Add logging utility for API debugging
