@@ -298,3 +298,4 @@ export default function DirectoryPage({
 // Update storage utility localStorage wrappers
 // Refactor storage utility try-catch blocks
 // Improve storage utility cache invalidation
+// Update storage utility cross-tab event listener
