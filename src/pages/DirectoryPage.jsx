@@ -253,3 +253,4 @@ export default function DirectoryPage({
 // Refactor Footer flexbox container layout
 // Update Footer external link target attributes
 // Adjust Footer legal text font size
+// Update Footer social media icon margins
