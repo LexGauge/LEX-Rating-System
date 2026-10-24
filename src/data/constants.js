@@ -45,3 +45,4 @@ export const QA_SAMPLE_DATA = [
 // Define theme color palette variables
 // Add standard error message strings
 // Define API endpoint route constants
+// Add pagination default limits
