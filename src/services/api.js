@@ -187,3 +187,4 @@ export { authFetch, API_BASE };
 // Add response interceptor for global error handling
 // Create helper function for GET requests
 // Implement POST request utility function
+// Add PUT method for resource updates
