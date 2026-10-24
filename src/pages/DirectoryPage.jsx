@@ -282,3 +282,4 @@ export default function DirectoryPage({
 // Refactor LawyerCard specialty badge flex wrapping
 // Update LawyerModal body overflow hidden logic
 // Refactor LawyerModal bio paragraph spacing
+// Improve LawyerModal primary CTA button padding
