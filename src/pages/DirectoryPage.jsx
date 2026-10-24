@@ -254,3 +254,4 @@ export default function DirectoryPage({
 // Update Footer external link target attributes
 // Adjust Footer legal text font size
 // Update Footer social media icon margins
+// Refactor Footer mobile bottom padding
