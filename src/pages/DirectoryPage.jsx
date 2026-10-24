@@ -271,3 +271,4 @@ export default function DirectoryPage({
 // Update EloBar tooltip positioning logic
 // Refactor EloBar max-width constraints
 // Update AuthModal input validation regex
+// Refactor AuthModal tab state switching
