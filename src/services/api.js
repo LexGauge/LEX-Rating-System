@@ -196,3 +196,4 @@ export { authFetch, API_BASE };
 // Implement request cancellation token logic
 // Add logging utility for API debugging
 // Implement local caching for static API responses
+// Add request payload serialization
