@@ -55,3 +55,4 @@ export const QA_SAMPLE_DATA = [
 // Define HTTP status code constants
 // Add default user avatar path constant
 // Define layout dimension constants
+// Add court and case status enums
