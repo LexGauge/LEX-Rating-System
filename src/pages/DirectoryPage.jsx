@@ -269,3 +269,4 @@ export default function DirectoryPage({
 // Refactor EloBar width calculation math
 // Improve EloBar mount animation easing
 // Update EloBar tooltip positioning logic
+// Refactor EloBar max-width constraints
