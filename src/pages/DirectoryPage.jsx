@@ -295,3 +295,4 @@ export default function DirectoryPage({
 // Improve DirectoryPage empty results messaging
 // Update DirectoryPage pagination button states
 // Refactor DirectoryPage list/grid toggle state
+// Update storage utility localStorage wrappers
