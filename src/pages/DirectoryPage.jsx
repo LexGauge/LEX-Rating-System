@@ -277,3 +277,4 @@ export default function DirectoryPage({
 // Refactor AuthModal keyboard event listeners
 // Update LawyerCard CSS grid template columns
 // Refactor LawyerCard image loading attribute
+// Improve LawyerCard text overflow truncation
