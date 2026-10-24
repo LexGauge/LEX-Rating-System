@@ -382,3 +382,4 @@ export const LEGAL_GUIDES = [
 // Update guide metadata with author info
 // Add publication dates to guide entries
 // Implement related guides cross-reference IDs
+// Add external resource links to guides
