@@ -245,3 +245,4 @@ export default function DirectoryPage({
     </div>
   );
 }
+// Refactor Navbar mobile breakpoint spacing
