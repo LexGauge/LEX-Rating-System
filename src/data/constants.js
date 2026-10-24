@@ -54,3 +54,4 @@ export const QA_SAMPLE_DATA = [
 // Add application version string constant
 // Define HTTP status code constants
 // Add default user avatar path constant
+// Define layout dimension constants
