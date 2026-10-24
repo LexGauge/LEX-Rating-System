@@ -250,3 +250,4 @@ export default function DirectoryPage({
 // Improve mobile menu transition timing
 // Update semantic HTML tags in Navbar
 // Adjust Navbar logo SVG scaling
+// Refactor Footer flexbox container layout
