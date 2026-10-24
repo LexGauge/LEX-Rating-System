@@ -296,3 +296,4 @@ export default function DirectoryPage({
 // Update DirectoryPage pagination button states
 // Refactor DirectoryPage list/grid toggle state
 // Update storage utility localStorage wrappers
+// Refactor storage utility try-catch blocks
