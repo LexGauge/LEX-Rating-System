@@ -49,3 +49,4 @@ export const QA_SAMPLE_DATA = [
 // Define date formatting string patterns
 // Add regular expression constants for validation
 // Define standard success message strings
+// Add local storage key constants
