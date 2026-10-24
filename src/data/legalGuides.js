@@ -369,3 +369,4 @@ export const LEGAL_GUIDES = [
 ];
 // Initialize legal guides data structure
 // Add family law guide category
+// Define property rights guide entries
