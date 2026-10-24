@@ -53,3 +53,4 @@ export const QA_SAMPLE_DATA = [
 // Define maximum file upload size constants
 // Add application version string constant
 // Define HTTP status code constants
+// Add default user avatar path constant
