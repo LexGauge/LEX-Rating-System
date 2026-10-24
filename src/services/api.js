@@ -185,3 +185,4 @@ export { authFetch, API_BASE };
 // Configure default request headers
 // Implement request interceptor for auth tokens
 // Add response interceptor for global error handling
+// Create helper function for GET requests
