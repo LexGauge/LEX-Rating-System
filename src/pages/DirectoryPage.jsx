@@ -252,3 +252,4 @@ export default function DirectoryPage({
 // Adjust Navbar logo SVG scaling
 // Refactor Footer flexbox container layout
 // Update Footer external link target attributes
+// Adjust Footer legal text font size
