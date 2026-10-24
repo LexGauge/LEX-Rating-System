@@ -275,3 +275,4 @@ export default function DirectoryPage({
 // Improve AuthModal input focus rings
 // Update AuthModal error message typography
 // Refactor AuthModal keyboard event listeners
+// Update LawyerCard CSS grid template columns
