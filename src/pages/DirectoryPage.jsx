@@ -264,3 +264,4 @@ export default function DirectoryPage({
 // Refactor StarRow fractional percentage calculation
 // Improve StarRow color contrast ratio
 // Update StarRow responsive sizing props
+// Refactor StarRow empty state rendering
