@@ -190,3 +190,4 @@ export { authFetch, API_BASE };
 // Add PUT method for resource updates
 // Implement DELETE request wrapper
 // Add retry logic for failed network requests
+// Implement token refresh mechanism on 401 response
