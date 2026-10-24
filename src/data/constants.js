@@ -52,3 +52,4 @@ export const QA_SAMPLE_DATA = [
 // Add local storage key constants
 // Define maximum file upload size constants
 // Add application version string constant
+// Define HTTP status code constants
