@@ -256,3 +256,4 @@ export default function DirectoryPage({
 // Update Footer social media icon margins
 // Refactor Footer mobile bottom padding
 // Update ModalBackdrop z-index configuration
+// Refactor ModalBackdrop click handler
