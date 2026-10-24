@@ -262,3 +262,4 @@ export default function DirectoryPage({
 // Refactor ModalBackdrop focus trap logic
 // Update StarRow SVG path dimensions
 // Refactor StarRow fractional percentage calculation
+// Improve StarRow color contrast ratio
