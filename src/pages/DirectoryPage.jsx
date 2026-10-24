@@ -291,3 +291,4 @@ export default function DirectoryPage({
 // Update Home page footer intersection observer
 // Refactor Home page layout shift prevention
 // Update DirectoryPage search input debounce hook
+// Refactor DirectoryPage filter sidebar width
