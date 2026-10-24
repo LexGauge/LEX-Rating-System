@@ -302,3 +302,4 @@ export default function DirectoryPage({
 // Refactor storage utility key prefix constants
 // Update ratingUtils decimal rounding precision
 // Refactor ratingUtils null check fallbacks
+// Improve ratingUtils Elo normalization formula
