@@ -297,3 +297,4 @@ export default function DirectoryPage({
 // Refactor DirectoryPage list/grid toggle state
 // Update storage utility localStorage wrappers
 // Refactor storage utility try-catch blocks
+// Improve storage utility cache invalidation
