@@ -263,3 +263,4 @@ export default function DirectoryPage({
 // Update StarRow SVG path dimensions
 // Refactor StarRow fractional percentage calculation
 // Improve StarRow color contrast ratio
+// Update StarRow responsive sizing props
