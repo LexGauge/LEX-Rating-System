@@ -386,3 +386,4 @@ export const LEGAL_GUIDES = [
 // Define search keywords for guide filtering
 // Add readability scores to guide content
 // Implement localization support for guide text
+// Finalize legal guides data export
