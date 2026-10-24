@@ -371,3 +371,4 @@ export const LEGAL_GUIDES = [
 // Add family law guide category
 // Define property rights guide entries
 // Add civil litigation process overview
+// Implement criminal defense guide sections
