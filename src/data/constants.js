@@ -44,3 +44,4 @@ export const QA_SAMPLE_DATA = [
 // Add user role enum constants
 // Define theme color palette variables
 // Add standard error message strings
+// Define API endpoint route constants
