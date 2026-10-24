@@ -272,3 +272,4 @@ export default function DirectoryPage({
 // Refactor EloBar max-width constraints
 // Update AuthModal input validation regex
 // Refactor AuthModal tab state switching
+// Improve AuthModal input focus rings
