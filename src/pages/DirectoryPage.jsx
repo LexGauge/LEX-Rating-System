@@ -267,3 +267,4 @@ export default function DirectoryPage({
 // Refactor StarRow empty state rendering
 // Update EloBar tier threshold constants
 // Refactor EloBar width calculation math
+// Improve EloBar mount animation easing
