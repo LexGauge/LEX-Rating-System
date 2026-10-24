@@ -192,3 +192,4 @@ export { authFetch, API_BASE };
 // Add retry logic for failed network requests
 // Implement token refresh mechanism on 401 response
 // Add API timeout configuration
+// Create utility for handling multipart form data
