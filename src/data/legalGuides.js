@@ -373,3 +373,4 @@ export const LEGAL_GUIDES = [
 // Add civil litigation process overview
 // Implement criminal defense guide sections
 // Add corporate law basic guidelines
+// Define labor and employment rights data
