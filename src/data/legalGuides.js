@@ -384,3 +384,4 @@ export const LEGAL_GUIDES = [
 // Implement related guides cross-reference IDs
 // Add external resource links to guides
 // Define search keywords for guide filtering
+// Add readability scores to guide content
