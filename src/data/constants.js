@@ -42,3 +42,4 @@ export const QA_SAMPLE_DATA = [
 // Initialize constants data file
 // Define application base URL constants
 // Add user role enum constants
+// Define theme color palette variables
