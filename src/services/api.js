@@ -182,3 +182,4 @@ export const api = {
 export { authFetch, API_BASE };
 // Initialize API service module
 // Import axios and define base URL
+// Configure default request headers
