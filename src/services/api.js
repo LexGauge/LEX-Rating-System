@@ -184,3 +184,4 @@ export { authFetch, API_BASE };
 // Import axios and define base URL
 // Configure default request headers
 // Implement request interceptor for auth tokens
+// Add response interceptor for global error handling
