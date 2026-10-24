@@ -260,3 +260,4 @@ export default function DirectoryPage({
 // Improve ModalBackdrop CSS blur performance
 // Update ModalBackdrop transition classes
 // Refactor ModalBackdrop focus trap logic
+// Update StarRow SVG path dimensions
