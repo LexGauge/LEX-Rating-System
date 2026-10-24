@@ -287,3 +287,4 @@ export default function DirectoryPage({
 // Refactor LawyerModal close icon hit area
 // Update Home page hero h1 line-height
 // Refactor Home page CTA section margins
+// Improve Home page feature card grid gaps
