@@ -268,3 +268,4 @@ export default function DirectoryPage({
 // Update EloBar tier threshold constants
 // Refactor EloBar width calculation math
 // Improve EloBar mount animation easing
+// Update EloBar tooltip positioning logic
