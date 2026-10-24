@@ -255,3 +255,4 @@ export default function DirectoryPage({
 // Adjust Footer legal text font size
 // Update Footer social media icon margins
 // Refactor Footer mobile bottom padding
+// Update ModalBackdrop z-index configuration
