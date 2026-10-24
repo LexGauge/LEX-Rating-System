@@ -278,3 +278,4 @@ export default function DirectoryPage({
 // Update LawyerCard CSS grid template columns
 // Refactor LawyerCard image loading attribute
 // Improve LawyerCard text overflow truncation
+// Update LawyerCard hover box-shadow effect
