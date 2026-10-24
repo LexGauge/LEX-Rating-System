@@ -293,3 +293,4 @@ export default function DirectoryPage({
 // Update DirectoryPage search input debounce hook
 // Refactor DirectoryPage filter sidebar width
 // Improve DirectoryPage empty results messaging
+// Update DirectoryPage pagination button states
