@@ -188,3 +188,4 @@ export { authFetch, API_BASE };
 // Create helper function for GET requests
 // Implement POST request utility function
 // Add PUT method for resource updates
+// Implement DELETE request wrapper
