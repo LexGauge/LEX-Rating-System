@@ -381,3 +381,4 @@ export const LEGAL_GUIDES = [
 // Add personal injury claim procedures
 // Update guide metadata with author info
 // Add publication dates to guide entries
+// Implement related guides cross-reference IDs
