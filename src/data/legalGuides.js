@@ -380,3 +380,4 @@ export const LEGAL_GUIDES = [
 // Implement tax law FAQ data
 // Add personal injury claim procedures
 // Update guide metadata with author info
+// Add publication dates to guide entries
