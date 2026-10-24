@@ -48,3 +48,4 @@ export const QA_SAMPLE_DATA = [
 // Add pagination default limits
 // Define date formatting string patterns
 // Add regular expression constants for validation
+// Define standard success message strings
