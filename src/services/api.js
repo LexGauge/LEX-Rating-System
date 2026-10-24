@@ -191,3 +191,4 @@ export { authFetch, API_BASE };
 // Implement DELETE request wrapper
 // Add retry logic for failed network requests
 // Implement token refresh mechanism on 401 response
+// Add API timeout configuration
