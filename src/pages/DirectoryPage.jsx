@@ -265,3 +265,4 @@ export default function DirectoryPage({
 // Improve StarRow color contrast ratio
 // Update StarRow responsive sizing props
 // Refactor StarRow empty state rendering
+// Update EloBar tier threshold constants
