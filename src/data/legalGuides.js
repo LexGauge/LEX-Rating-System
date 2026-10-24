@@ -375,3 +375,4 @@ export const LEGAL_GUIDES = [
 // Add corporate law basic guidelines
 // Define labor and employment rights data
 // Add intellectual property guide content
+// Include legal terminology glossary terms
