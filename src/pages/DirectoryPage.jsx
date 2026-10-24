@@ -257,3 +257,4 @@ export default function DirectoryPage({
 // Refactor Footer mobile bottom padding
 // Update ModalBackdrop z-index configuration
 // Refactor ModalBackdrop click handler
+// Improve ModalBackdrop CSS blur performance
