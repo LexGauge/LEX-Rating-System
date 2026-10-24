@@ -284,3 +284,4 @@ export default function DirectoryPage({
 // Refactor LawyerModal bio paragraph spacing
 // Improve LawyerModal primary CTA button padding
 // Update LawyerModal skeleton loader animation
+// Refactor LawyerModal close icon hit area
