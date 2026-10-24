@@ -197,3 +197,4 @@ export { authFetch, API_BASE };
 // Add logging utility for API debugging
 // Implement local caching for static API responses
 // Add request payload serialization
+// Implement standardized API error formatting
