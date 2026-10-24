@@ -300,3 +300,4 @@ export default function DirectoryPage({
 // Improve storage utility cache invalidation
 // Update storage utility cross-tab event listener
 // Refactor storage utility key prefix constants
+// Update ratingUtils decimal rounding precision
