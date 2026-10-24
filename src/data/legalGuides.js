@@ -385,3 +385,4 @@ export const LEGAL_GUIDES = [
 // Add external resource links to guides
 // Define search keywords for guide filtering
 // Add readability scores to guide content
+// Implement localization support for guide text
