@@ -249,3 +249,4 @@ export default function DirectoryPage({
 // Update Navbar auth toggle button styles
 // Improve mobile menu transition timing
 // Update semantic HTML tags in Navbar
+// Adjust Navbar logo SVG scaling
