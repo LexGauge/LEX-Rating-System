@@ -259,3 +259,4 @@ export default function DirectoryPage({
 // Refactor ModalBackdrop click handler
 // Improve ModalBackdrop CSS blur performance
 // Update ModalBackdrop transition classes
+// Refactor ModalBackdrop focus trap logic
