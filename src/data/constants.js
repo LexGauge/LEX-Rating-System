@@ -50,3 +50,4 @@ export const QA_SAMPLE_DATA = [
 // Add regular expression constants for validation
 // Define standard success message strings
 // Add local storage key constants
+// Define maximum file upload size constants
