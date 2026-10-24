@@ -198,3 +198,4 @@ export { authFetch, API_BASE };
 // Implement local caching for static API responses
 // Add request payload serialization
 // Implement standardized API error formatting
+// Add mock API toggle for development environment
