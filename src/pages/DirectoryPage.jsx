@@ -289,3 +289,4 @@ export default function DirectoryPage({
 // Refactor Home page CTA section margins
 // Improve Home page feature card grid gaps
 // Update Home page footer intersection observer
+// Refactor Home page layout shift prevention
