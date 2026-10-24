@@ -248,3 +248,4 @@ export default function DirectoryPage({
 // Refactor Navbar mobile breakpoint spacing
 // Update Navbar auth toggle button styles
 // Improve mobile menu transition timing
+// Update semantic HTML tags in Navbar
