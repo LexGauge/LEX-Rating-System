@@ -189,3 +189,4 @@ export { authFetch, API_BASE };
 // Implement POST request utility function
 // Add PUT method for resource updates
 // Implement DELETE request wrapper
+// Add retry logic for failed network requests
