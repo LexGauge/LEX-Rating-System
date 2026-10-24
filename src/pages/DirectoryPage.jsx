@@ -290,3 +290,4 @@ export default function DirectoryPage({
 // Improve Home page feature card grid gaps
 // Update Home page footer intersection observer
 // Refactor Home page layout shift prevention
+// Update DirectoryPage search input debounce hook
