@@ -367,23 +367,3 @@ export const LEGAL_GUIDES = [
     ]
   }
 ];
-// Initialize legal guides data structure
-// Add family law guide category
-// Define property rights guide entries
-// Add civil litigation process overview
-// Implement criminal defense guide sections
-// Add corporate law basic guidelines
-// Define labor and employment rights data
-// Add intellectual property guide content
-// Include legal terminology glossary terms
-// Add immigration law step-by-step guides
-// Implement tax law FAQ data
-// Add personal injury claim procedures
-// Update guide metadata with author info
-// Add publication dates to guide entries
-// Implement related guides cross-reference IDs
-// Add external resource links to guides
-// Define search keywords for guide filtering
-// Add readability scores to guide content
-// Implement localization support for guide text
-// Finalize legal guides data export

@@ -1,7 +1,7 @@
-import React from "react";
-import StarRow from "../../components/common/StarRow";
+import React from 'react';
+import StarRow from '../../components/common/StarRow';
 
-export default function LawyerCard({ lawyer, onClick, variant = "standard" }) {
+export default function LawyerCard({ lawyer, onClick, variant = 'standard' }) {
   const ratingVal = (Number(lawyer.rating) || 4.8).toFixed(1);
   const reviewsCount = lawyer.reviewsCount || lawyer.casesCount || 128;
   const casesCount = lawyer.casesCount || 128;
@@ -9,32 +9,23 @@ export default function LawyerCard({ lawyer, onClick, variant = "standard" }) {
 
   return (
     <div
-      className={`lex-lawyer-card ${variant === "horizontal" ? "lex-lawyer-card-horizontal" : ""}`}
+      className={`lex-lawyer-card ${variant === 'horizontal' ? 'lex-lawyer-card-horizontal' : ''}`}
       onClick={onClick}
       role="button"
       tabIndex={0}
-      onKeyDown={(e) => {
-        if (e.key === "Enter" || e.key === " ") onClick();
+      onKeyDown={e => {
+        if (e.key === 'Enter' || e.key === ' ') onClick();
       }}
       aria-label={`View profile and details of ${lawyer.name}`}
     >
       {/* Bookmark Icon */}
-      <button
-        type="button"
-        className="lex-bookmark-btn"
-        onClick={(e) => {
-          e.stopPropagation();
-        }}
+      <button 
+        type="button" 
+        className="lex-bookmark-btn" 
+        onClick={(e) => { e.stopPropagation(); }}
         title="Bookmark lawyer"
       >
-        <svg
-          width="16"
-          height="16"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-        >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
         </svg>
       </button>
@@ -42,15 +33,11 @@ export default function LawyerCard({ lawyer, onClick, variant = "standard" }) {
       {/* Headshot Avatar */}
       <div className="lex-card-avatar-wrap">
         <img
-          src={
-            lawyer.profilePic ||
-            "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200"
-          }
+          src={lawyer.profilePic || 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200'}
           alt={lawyer.name}
           className="lex-card-avatar"
-          onError={(e) => {
-            e.target.src =
-              "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200";
+          onError={e => {
+            e.target.src = 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200';
           }}
         />
       </div>
@@ -67,11 +54,11 @@ export default function LawyerCard({ lawyer, onClick, variant = "standard" }) {
               Rating Private
             </span>
           ) : (
-            <span className="lex-elo-badge">ELO {lawyer.elo || 1200}</span>
+            <span className="lex-elo-badge">
+              ELO {lawyer.elo || 1200}
+            </span>
           )}
-          <span className="lex-card-tenure">
-            Licensed for {yearsExp} {yearsExp === 1 ? "yr" : "yrs"}
-          </span>
+          <span className="lex-card-tenure">Licensed for {yearsExp} {yearsExp === 1 ? 'yr' : 'yrs'}</span>
         </div>
 
         {/* Star Rating Row */}
@@ -82,21 +69,15 @@ export default function LawyerCard({ lawyer, onClick, variant = "standard" }) {
             <>
               <StarRow rating={lawyer.rating} />
               <span className="lex-rating-score">{ratingVal}</span>
-              <span className="lex-reviews-count">
-                ({reviewsCount} reviews)
-              </span>
+              <span className="lex-reviews-count">({reviewsCount} reviews)</span>
             </>
           )}
         </div>
 
-        <p className="lex-card-cases">
-          Cases Handled: {casesCount} court decisions
-        </p>
-        <p className="lex-card-location">
-          Location: {lawyer.city || "Addis Ababa"}
-        </p>
+        <p className="lex-card-cases">Cases Handled: {casesCount} court decisions</p>
+        <p className="lex-card-location">Location: {lawyer.city || 'Addis Ababa'}</p>
 
-        {variant === "horizontal" && lawyer.bio && (
+        {variant === 'horizontal' && lawyer.bio && (
           <p className="lex-card-bio-snippet">{lawyer.bio}</p>
         )}
       </div>
@@ -105,7 +86,7 @@ export default function LawyerCard({ lawyer, onClick, variant = "standard" }) {
       <button
         type="button"
         className="lex-btn-dark-full"
-        onClick={(e) => {
+        onClick={e => {
           e.stopPropagation();
           onClick();
         }}

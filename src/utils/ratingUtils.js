@@ -5,8 +5,8 @@ export function eloToRating(elo) {
 }
 
 export function ratingColor(r) {
-  if (r >= 9.0) return "rating-superb";
-  if (r >= 7.5) return "rating-excellent";
-  if (r >= 6.0) return "rating-good";
-  return "rating-fair";
+  if (r >= 9.0) return 'rating-superb';
+  if (r >= 7.5) return 'rating-excellent';
+  if (r >= 6.0) return 'rating-good';
+  return 'rating-fair';
 }

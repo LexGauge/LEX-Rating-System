@@ -180,23 +180,3 @@ export const api = {
 };
 
 export { authFetch, API_BASE };
-// Initialize API service module
-// Import axios and define base URL
-// Configure default request headers
-// Implement request interceptor for auth tokens
-// Add response interceptor for global error handling
-// Create helper function for GET requests
-// Implement POST request utility function
-// Add PUT method for resource updates
-// Implement DELETE request wrapper
-// Add retry logic for failed network requests
-// Implement token refresh mechanism on 401 response
-// Add API timeout configuration
-// Create utility for handling multipart form data
-// Implement request cancellation token logic
-// Add logging utility for API debugging
-// Implement local caching for static API responses
-// Add request payload serialization
-// Implement standardized API error formatting
-// Add mock API toggle for development environment
-// Finalize API service exports

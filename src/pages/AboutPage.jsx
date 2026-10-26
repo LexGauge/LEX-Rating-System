@@ -323,6 +323,3 @@ export default function AboutPage({ onNavigate, onSearch, onOpenAuth }) {
     </div>
   );
 }
-// update step 9
-// update step 10
-// update step 11

@@ -364,7 +364,3 @@ export default function App() {
     </div>
   );
 }
-// update step 18
-// update step 19
-// update step 20
-// update step 21
