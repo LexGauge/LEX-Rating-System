@@ -26,24 +26,5 @@ const userSchema = new mongoose.Schema({
   showRating:     { type: Boolean, default: true },
   themePreference:{ type: String, enum: ['light', 'dark'], default: 'light' }
 }, { timestamps: true });
+
 export default mongoose.models.User || mongoose.model('User', userSchema);
-// Initialize User model schema
-// Add username and email fields
-// Implement password hashing pre-save hook
-// Add password comparison instance method
-// Define user roles enum for authorization
-// Add theme preference field with default
-// Enable automatic Mongoose timestamps
-// Add regex validation for email format
-// Create virtual field for user full name
-// Add profile picture URL field
-// Implement soft delete active status flag
-// Add account email verification status
-// Create unique database index on email field
-// Add password reset token and expiry fields
-// Implement instance method to generate JWT
-// Add array field for tracking login history
-// Define reference array for saved lawyers
-// Add two-factor authentication secret field
-// Implement schema pre-save data sanitization
-// Finalize User model compilation and export

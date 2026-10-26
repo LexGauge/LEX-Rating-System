@@ -138,23 +138,3 @@ export function calculateLawyerRatings(users, courtCases) {
 
   return { eloMap, statsMap };
 }
-// Initialize rating service module
-// Define rating calculation constants and weights
-// Add helper function for average rating calculation
-// Implement fetch algorithm for lawyer ratings
-// Add validation for incoming user rating payloads
-// Implement logic to submit a new rating
-// Add service to update existing rating scores
-// Implement review text sanitization
-// Add database query for fetching rating history
-// Implement caching strategy for top-rated lawyers
-// Add service method to calculate weighted scores
-// Implement user verification check for authentic reviews
-// Add delete rating functionality for moderators
-// Implement pagination logic for rating lists
-// Add aggregate function for court ratings
-// Implement error handling for missing rating records
-// Add edge case handling for zero reviews
-// Optimize MongoDB aggregation pipeline for ratings
-// Refactor JSON fallback logic for offline ratings
-// Finalize rating service module exports
