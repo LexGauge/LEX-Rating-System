@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function EloBar({ elo = 1000 }) {
   const numElo = Number(elo) || 1000;
