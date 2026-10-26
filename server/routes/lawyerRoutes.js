@@ -135,13 +135,3 @@ router.get('/search', async (req, res) => {
 });
 
 export default router;
-// Initialize lawyer routing module
-// Add GET route for listing all lawyers
-// Implement search filtering for lawyer specialties
-// Add GET endpoint for fetching individual lawyer profiles
-// Create POST endpoint for registering new lawyers
-// Add validation middleware for lawyer registration payload
-// Implement PUT route for updating lawyer details
-// Add DELETE endpoint for removing lawyer profiles
-// Implement error handling for lawyer database queries
-// Finalize lawyer routes export

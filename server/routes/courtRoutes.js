@@ -106,13 +106,3 @@ router.post('/cases', requireAuth, requireRole('judge', 'admin'), async (req, re
 });
 
 export default router;
-// Initialize court routes module
-// Add GET endpoint for retrieving all courts
-// Implement court ID validation middleware
-// Add GET endpoint for fetching single court details
-// Create POST route for adding new court records
-// Implement payload validation for new court data
-// Add PUT endpoint for updating court information
-// Implement DELETE route for removing court entries
-// Add error handling for court route database operations
-// Finalize court routes export and clean up code

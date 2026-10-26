@@ -355,23 +355,3 @@ router.put('/theme', async (req, res) => {
 });
 
 export default router;
-// Initialize theme preference endpoint
-// Add theme payload validation for light/dark
-// Implement mongoose connection ready state check
-// Add MongoDB user theme update logic
-// Import JSON database read/write utilities
-// Define fallback JSON users path
-// Implement JSON user array search index
-// Add JSON file theme update logic
-// Write updated JSON back to file system
-// Finalize theme route response and export
-// Initialize theme preference endpoint
-// Add theme payload validation for light/dark
-// Implement mongoose connection ready state check
-// Add MongoDB user theme update logic
-// Import JSON database read/write utilities
-// Define fallback JSON users path
-// Implement JSON user array search index
-// Add JSON file theme update logic
-// Write updated JSON back to file system
-// Finalize theme route response and export

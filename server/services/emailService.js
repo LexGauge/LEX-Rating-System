@@ -43,23 +43,3 @@ export async function sendBrevoEmail(toEmail, code) {
   }
 }
 
-// Initialize email service module
-// Import nodemailer and config dependencies
-// Configure SMTP transporter settings
-// Add connection verification for email server
-// Create base template for transactional emails
-// Implement welcome email sending logic
-// Add password reset email functionality
-// Implement email verification link generator
-// Add HTML template rendering support
-// Implement fallback plain text email bodies
-// Add attachment handling for email service
-// Implement retry logic for failed email dispatches
-// Add email queue processing utility
-// Implement logging for sent emails
-// Add error handling for invalid email addresses
-// Implement daily summary report email logic
-// Add support for CC and BCC fields
-// Implement bulk email sending capabilities
-// Add rate limiting to prevent spam
-// Finalize email service exports

@@ -16,6 +16,24 @@
     "publishedAt": "2026-08-17T07:02:01.756Z",
     "answers": [
       {
+        "id": "ans-1787162252988",
+        "content": "Under Article 49 and 51 of the Ethiopian Criminal Procedure Code (CrPC), arrest without warrant is an exception permitted only for flagrant offenses (እጅ ከፍንጅ) or where the suspect is reasonably suspected of a grave offense punishable by rigorous imprisonment exceeding 3 years and is likely to abscond. Under FDRE Constitution Article 19, the suspect must be informed immediately in a language they understand of the reasons for arrest and must be brought before a court within 48 hours. Evidence obtained as direct fruit of unlawful arbitrary arrest can be challenged and suppressed under constitutional due process standards.",
+        "authorId": "lawyer-1003",
+        "authorName": "Dawit Girma Tadesse",
+        "authorUsername": "dawit_girma",
+        "authorRole": "lawyer",
+        "isLawyer": true,
+        "licenseNumber": null,
+        "specialization": null,
+        "elo": null,
+        "profilePic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+        "city": "Ethiopia",
+        "upvotes": 0,
+        "upvotedBy": [],
+        "createdAt": "2026-08-19T17:57:32.988Z",
+        "_id": "6a86ade282f881caf713038a"
+      },
+      {
         "id": "ans-warrant-1",
         "content": "Under Article 49 and 51 of the Ethiopian Criminal Procedure Code (CrPC), arrest without warrant is an exception permitted only for flagrant offenses (እጅ ከፍንጅ) or where the suspect is reasonably suspected of a grave offense punishable by rigorous imprisonment exceeding 3 years and is likely to abscond. Under FDRE Constitution Article 19, the suspect must be informed immediately in a language they understand of the reasons for arrest and must be brought before a court within 48 hours. Evidence obtained as direct fruit of unlawful arbitrary arrest can be challenged and suppressed under constitutional due process standards.",
         "authorId": "lawyer-1001",
@@ -55,6 +73,26 @@
         ],
         "createdAt": "2026-08-17T09:30:00Z",
         "_id": "6a86ade282f881caf713038c"
+      },
+      {
+        "id": "ans-1787162306780",
+        "content": "helpful",
+        "authorId": "client-1787154786989",
+        "authorName": "Dagim",
+        "authorUsername": "dagi",
+        "authorRole": "client",
+        "isLawyer": false,
+        "licenseNumber": null,
+        "specialization": null,
+        "elo": null,
+        "profilePic": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200",
+        "city": "Ethiopia",
+        "upvotes": 1,
+        "upvotedBy": [
+          "lawyer-1003"
+        ],
+        "createdAt": "2026-08-19T17:58:26.780Z",
+        "_id": "6a86ade282f881caf713038d"
       }
     ],
     "updatedAt": "2026-08-20T07:33:54.010Z"
@@ -110,6 +148,24 @@
     "createdAt": "2026-08-20T06:41:01.692Z",
     "answers": [
       {
+        "id": "ans-1787079436029",
+        "content": "Under Article 19(3) FDRE Constitution, court appearance within 48 hours is mandatory.",
+        "authorId": "lawyer-1001",
+        "authorName": "Kebede Haile Mariam",
+        "authorUsername": "kebede_haile",
+        "authorRole": "lawyer",
+        "isLawyer": true,
+        "licenseNumber": null,
+        "specialization": "Criminal",
+        "elo": 1280,
+        "profilePic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+        "city": "Addis Ababa",
+        "upvotes": 0,
+        "upvotedBy": [],
+        "createdAt": "2026-08-18T18:57:16.029Z",
+        "_id": "6a86ade282f881caf713038f"
+      },
+      {
         "id": "ans-1",
         "content": "No, this is a clear violation of constitutional rights. Under Article 19(3) of the FDRE Constitution, every arrested person MUST be brought before a court of law within 48 hours of arrest. Duty judges operate over the weekend for remand hearings. You should immediately retain an advocate to demand immediate appearance or release.",
         "authorId": "lawyer-1001",
@@ -129,6 +185,24 @@
         ],
         "createdAt": "2026-02-14T11:15:00Z",
         "_id": "6a86ade282f881caf7130390"
+      },
+      {
+        "id": "ans-1787161742932",
+        "content": "very helpful",
+        "authorId": "client-1787154786989",
+        "authorName": "Dagim",
+        "authorUsername": "dagi",
+        "authorRole": "client",
+        "isLawyer": false,
+        "licenseNumber": null,
+        "specialization": null,
+        "elo": null,
+        "profilePic": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200",
+        "city": "Ethiopia",
+        "upvotes": 0,
+        "upvotedBy": [],
+        "createdAt": "2026-08-19T17:49:02.932Z",
+        "_id": "6a86ade282f881caf7130391"
       }
     ],
     "isPrivate": false,
