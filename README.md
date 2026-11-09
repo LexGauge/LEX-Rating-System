@@ -1,5 +1,10 @@
 # ⚖️ EthioLaw B2G Legal Rating System (LEX-RATING)
 
+#Video Presentation: [Here](https://drive.google.com/file/d/1Nkh8BejnsVUJoo1x0x-Snun-voSDklem/view?usp=sharing)
+
+Project Documentation: [Here](https://drive.google.com/file/d/1GHEYU9T-W_a242NHxDVV-SapjjVNMifo/view?usp=sharing)
+
+
 > **Digital Legal Advocacy, Case Management & Verified B2G Rating Platform**
 
 ---
